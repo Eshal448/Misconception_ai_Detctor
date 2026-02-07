@@ -1,0 +1,7 @@
+project_id = "qhkuhaeisqobpdwzmxcp"
+
+[functions.process-pdf]
+verify_jwt = false
+
+[functions.analyze-answer]
+verify_jwt = false
