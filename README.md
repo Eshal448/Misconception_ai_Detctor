@@ -1,5 +1,7 @@
 Misconception AI Detector is an intelligent educational application that identifies and corrects conceptual misunderstandings by analyzing how students think—not just what they answer. Using generative AI, the system diagnoses flawed reasoning patterns and delivers targeted explanations that help learners build accurate and durable understanding.
 
+Checkout :  https://misconceptionaidetector.lovable.app/
+
 Why Misconception AI Detector?
 
 Most learning tools evaluate correctness.
