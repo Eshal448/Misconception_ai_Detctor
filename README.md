@@ -1,73 +1,151 @@
-# Welcome to your Lovable project
+Misconception AI Detector is an intelligent educational application that identifies and corrects conceptual misunderstandings by analyzing how students think—not just what they answer. Using generative AI, the system diagnoses flawed reasoning patterns and delivers targeted explanations that help learners build accurate and durable understanding.
 
-## Project info
+Why Misconception AI Detector?
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Most learning tools evaluate correctness.
+This project focuses on reasoning quality.
 
-## How can I edit this code?
+Students often fail not due to lack of study, but because they develop incorrect mental models. Misconception AI Detector addresses this gap by detecting misconceptions early and correcting them with clear, structured feedback.
 
-There are several ways of editing your application.
+Core Features
 
-**Use Lovable**
+Reasoning-Based Analysis
+Detects conceptual misunderstandings rather than only marking answers right or wrong.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Targeted Corrective Feedback
+Explains why the reasoning is incorrect and how to fix it.
 
-Changes made via Lovable will be committed automatically to this repo.
+Memory & Reinforcement Tips
+Provides short, practical tips to prevent recurring mistakes.
 
-**Use your preferred IDE**
+Modern, Clean UI
+Distraction-free interface designed for learning clarity.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Extensible Architecture
+Built to support future features such as adaptive learning and analytics.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+How It Works
 
-Follow these steps:
+Study material or conceptual questions are provided
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Students submit short-response answers
+
+The AI analyzes underlying reasoning patterns
+
+Misconceptions are identified and named
+
+Correct explanations and memory tips are generated
+
+Tech Stack
+
+This project uses a modern, maintainable frontend stack:
+
+Vite – Fast development and optimized builds
+
+TypeScript – Type safety and long-term maintainability
+
+React – Component-based UI architecture
+
+Tailwind CSS – Utility-first styling
+
+shadcn/ui – Accessible, reusable UI components
+
+Project Setup
+Prerequisites
+
+Node.js
+
+npm
+(Using nvm is recommended)
+
+Installation
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Navigate into the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The application runs locally with hot-reload enabled.
 
-**Use GitHub Codespaces**
+Development Workflow
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project supports multiple development approaches:
 
-## What technologies are used for this project?
+1. Using Lovable (Recommended)
 
-This project is built with:
+Open the project in Lovable
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Prompt and modify the application
 
-## How can I deploy this project?
+Changes are automatically committed to the repository
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+2. Local Development
 
-## Can I connect a custom domain to my Lovable project?
+Clone the repository
 
-Yes, you can!
+Work in your preferred IDE
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Push changes to sync with Lovable
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+3. GitHub Codespaces
+
+Create a new Codespace directly from GitHub
+
+Edit, commit, and push from the browser
+
+Deployment
+
+Deployment is managed through Lovable:
+
+Open the project in Lovable
+
+Select Share → Publish
+
+The application is deployed instantly
+
+Custom Domain
+
+Custom domains can be connected via:
+
+Project → Settings → Domains in Lovable
+
+Design Principles
+
+Focus on understanding over memorization
+
+Clear separation of UI, logic, and AI responsibilities
+
+Predictable and explainable AI outputs
+
+Minimalism over feature overload
+
+Roadmap
+
+Planned enhancements include:
+
+Adaptive misconception tracking per student
+
+Multi-document support
+
+Learning analytics and progress insights
+
+Educator dashboards
+
+Integration with formal curricula
+
+Vision
+
+Misconception AI Detector aims to shift AI-assisted education from answer validation to conceptual understanding, helping learners fix mistakes at the root and learn with confidence.
+
+Contributing
+
+Contributions are welcome. If you plan to introduce significant changes, please open an issue first to discuss the proposal.
+
+Developed By : Eashal Fatima 
